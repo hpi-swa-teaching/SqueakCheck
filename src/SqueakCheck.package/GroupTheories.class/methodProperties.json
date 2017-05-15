@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"groupsObeyAssociativity:and:and:" : "fbs 2/2/2012 09:50",
+		"groupsObeyLeftIdentityLaw:" : "fbs 1/30/2012 23:05",
+		"groupsObeyRightIdentityLaw:" : "fbs 1/30/2012 23:06" } }
