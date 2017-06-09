@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakCheck-Generators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 9/11/2011 16:19",
+	"instvars" : [
+		"rng",
+		"integerRange" ],
+	"name" : "RandomDataGenerator",
+	"pools" : [
+		 ],
+	"super" : "AbstractDataGenerator",
+	"type" : "normal" }

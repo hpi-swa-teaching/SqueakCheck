@@ -1,3 +1,4 @@
 OrderedDictionary {
+	'SqueakCheck.package' : #SquotCypressCodeSerializer,
 	'src\/SqueakCheck.package' : #SquotCypressCodeSerializer
 }

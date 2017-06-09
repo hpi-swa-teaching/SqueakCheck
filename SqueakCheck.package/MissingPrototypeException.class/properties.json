@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakCheck-SUnit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 4/30/2012 23:06",
+	"instvars" : [
+		 ],
+	"name" : "MissingPrototypeException",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

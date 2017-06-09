@@ -1,0 +1,3 @@
+generators
+characterData
+        self subclassResponsibility.

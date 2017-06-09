@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakCheck-SUnit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 1/27/2012 19:05",
+	"instvars" : [
+		 ],
+	"name" : "TheoryTyper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

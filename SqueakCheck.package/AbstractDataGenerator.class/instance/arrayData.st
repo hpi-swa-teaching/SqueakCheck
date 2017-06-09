@@ -1,0 +1,3 @@
+generators
+arrayData
+	self subclassResponsibility.
