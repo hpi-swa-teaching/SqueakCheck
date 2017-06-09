@@ -1,6 +1,6 @@
 private
 generateTestCase: aTheorySelector withCounterexample: anObject
-	| description testCase testCaseName |
+	| description testCase testCaseName popup|
 	"More or less 'print out anObject (rejecting all weird characters) and turn it IntoCamelCase'."
 	description := (anObject printString withBlanksCondensed subStrings: ' ')
 		inject: '' into: [:acc :each | acc , ((each select: #isAlphaNumeric) capitalized)].
@@ -13,3 +13,9 @@ generateTestCase: aTheorySelector withCounterexample: anObject
 		compile: testCase
 		classified: 'counterexamples'
 		notifying: nil.
+		
+	popup := PluggableSystemWindowWithLabelButton new.
+	popup label: (anObject asString).
+	popup openInWorld.
+	popup extent: 150@75.
+	popup topLeft: 50@50.

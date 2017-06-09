@@ -1,0 +1,14 @@
+{
+	"category" : "SWTQ",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SWTQClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

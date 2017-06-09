@@ -1,0 +1,14 @@
+{
+	"category" : "SWTQ-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SWTQClassTests",
+	"pools" : [
+		 ],
+	"super" : "TheoryTestCase",
+	"type" : "normal" }

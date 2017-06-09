@@ -1,4 +1,6 @@
 OrderedDictionary {
+	'SWTQ.package' : #SquotCypressCodeSerializer,
 	'SqueakCheck.package' : #SquotCypressCodeSerializer,
+	'Tools-Browser.package' : #SquotCypressCodeSerializer,
 	'src\/SqueakCheck.package' : #SquotCypressCodeSerializer
 }
