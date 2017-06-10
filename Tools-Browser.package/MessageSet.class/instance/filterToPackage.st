@@ -4,9 +4,9 @@ filterToPackage
 	| packages selectedIndex selectedPackage |
 
 	packages := (PackageOrganizer default packages sort: [ :a :b |
-		a packageName <= b packageName ]).
+		a categoryNameForTest <= b categoryNameForTest ]).
 
-	selectedIndex := UIManager default chooseFrom: (packages collect:[:each | each packageName]) lines: #() title: 'Select a package...'.
+	selectedIndex := UIManager default chooseFrom: (packages collect:[:each | each categoryNameForTest]) lines: #() title: 'Select a package...'.
 	selectedIndex isZero ifTrue:[^ self].
 
 	selectedPackage := packages at: selectedIndex.

@@ -2,8 +2,8 @@ message functions
 mainMessageListMenu: aMenu
 	<messageListMenuShifted: false>
 	^ aMenu addList: #(
-			('new SqueakCheck Test' newSqueakCheckTest)
-			-
+			('new SqueakCheck Test' #newTest)
+			-	
 			('what to show...'			offerWhatToShowMenu)
 			('toggle break on entry'		toggleBreakOnEntry)
 			-
