@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "fbs 5/4/2011 18:43",
+		"testBrowse" : "fbs 5/5/2011 17:55",
+		"testClassList" : "fbs 10/27/2012 21:56",
+		"testHasPackageSelected" : "fbs 5/5/2011 17:53",
+		"testSelectedClassOrMetaClass" : "fbs 5/6/2011 07:43",
+		"testSelectedMessageClassSideShowsSource" : "nice 5/5/2016 00:29",
+		"testSelectedMessageName" : "fbs 5/6/2011 08:26",
+		"testSelectedMessageNameClassSide" : "nice 5/5/2016 00:28" } }

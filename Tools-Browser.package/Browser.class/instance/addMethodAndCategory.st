@@ -14,6 +14,5 @@ addMethodAndCategory
 		classified: 'squeakCheckTests'
 		notifying: nil.
 
-	self openMethod: methodFullName.
-	self flag: 'TODO: Das hier ist SCHEIßE! Warum öffnet das hier iwelche methoden?! das muss hier iwie ausgelagert werden'.
+	^ methodFullName.
 

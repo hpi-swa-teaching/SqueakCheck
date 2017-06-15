@@ -1,0 +1,14 @@
+{
+	"category" : "ToolsTests-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browser" ],
+	"name" : "SWT14SqueakCheckTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

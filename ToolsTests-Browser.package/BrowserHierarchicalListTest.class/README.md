@@ -1,0 +1,1 @@
+Tests the optional hierarchical class ordering of Browser.
