@@ -31,6 +31,7 @@
 	"instance" : {
 		"aboutToStyle:" : "mt 3/16/2016 14:18",
 		"addAllMethodsToCurrentChangeSet" : "nice 10/20/2009 21:19",
+		"addAndOpenTest" : "gdf 6/15/2017 19:06",
 		"addCategory" : "ul 3/12/2017 23:04",
 		"addClass" : "TC 6/10/2017 11:52",
 		"addExtraShiftedItemsTo:" : "sw 1/11/2001 07:22",
@@ -191,8 +192,8 @@
 		"namesOfTestsForSelectedMethod" : "TC 6/10/2017 12:16",
 		"newClass" : "al 4/24/2004 11:48",
 		"newClassContents" : "fbs 1/3/2013 21:19",
-		"newMethodContent:" : "TC 6/10/2017 12:10",
-		"newTest" : "TC 6/10/2017 11:37",
+		"newMethodContent:" : "TZ 6/17/2017 12:46",
+		"newTest" : "gdf 6/15/2017 19:05",
 		"newTrait" : "al 4/24/2004 11:48",
 		"noCommentNagString" : "md 2/24/2006 15:23",
 		"noteSelectionIndex:for:" : "fbs 3/4/2011 20:57",
