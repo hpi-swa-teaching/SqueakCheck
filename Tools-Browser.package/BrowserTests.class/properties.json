@@ -1,0 +1,14 @@
+{
+	"category" : "Tools-Browser-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BrowserTests",
+	"pools" : [
+		 ],
+	"super" : "TheoryTestCase",
+	"type" : "normal" }
