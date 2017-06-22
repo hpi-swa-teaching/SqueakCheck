@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAllTestSelectorsFindsNormalTests" : "fbs 2/2/2012 09:27",
+		"testAllTestSelectorsFindsTheories" : "fbs 2/2/2012 09:27",
+		"testAllTestSelectorsReturnsHighArityTheories" : "fbs 2/2/2012 09:27",
+		"testAllTestSelectorsReturnsNormalTheories" : "fbs 2/2/2012 09:27",
+		"testAllTestSelectorsReturnsTypeSpecifyingTheories" : "fbs 2/2/2012 09:27",
+		"testFindingaCounterExampleGeneratesTestCase" : "gdf 6/22/2017 14:55" } }

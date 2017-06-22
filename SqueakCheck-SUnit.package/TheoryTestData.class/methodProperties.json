@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"isAbstract" : "fbs 2/2/2012 09:28" },
+	"instance" : {
+		"aFailingTheoryFails:" : "gdf 6/22/2017 14:55",
+		"aPassingTheoryPasses:" : "fbs 9/9/2011 08:00",
+		"aTheoryMayDescribeItsExpectedInput:" : "fbs 9/10/2011 13:58",
+		"anExpectedFailingTheoryFails:" : "fbs 9/27/2011 18:07",
+		"expectedFailures" : "fbs 9/27/2011 18:22",
+		"highArityTheories:receiveTheSame:kindsOf:input:" : "fbs 2/2/2012 09:18",
+		"testThisShowsUpInTestSelectors" : "fbs 9/27/2011 18:15" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "AlgebraicDataType-Trees",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value" ],
+	"name" : "Leaf",
+	"pools" : [
+		 ],
+	"super" : "Tree",
+	"type" : "normal" }

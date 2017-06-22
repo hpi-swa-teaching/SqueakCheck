@@ -1,3 +1,0 @@
-generators
-stringData
-	self subclassResponsibility

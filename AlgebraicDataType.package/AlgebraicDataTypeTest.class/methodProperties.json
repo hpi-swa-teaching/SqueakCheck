@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAccessorForNonZeroAritySelectorFails" : "fbs 7/9/2011 17:01",
+		"testAccessorForNullarySelectorReturnsMethodString" : "fbs 7/9/2011 16:56",
+		"testConstructorForNullarySelectorFails" : "fbs 7/9/2011 15:40",
+		"testConstructorForReturnsMethodString" : "fbs 7/9/2011 14:55",
+		"testInitialiserForHighAritySelectorInitialisesAllInstVars" : "fbs 7/9/2011 15:39",
+		"testInitialiserForNullarySelectorFails" : "fbs 7/9/2011 15:15",
+		"testInitialiserForUnarySelectorInitialisesInstVar" : "fbs 7/9/2011 15:39" } }

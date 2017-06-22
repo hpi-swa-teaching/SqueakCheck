@@ -1,7 +1,13 @@
 OrderedDictionary {
-	'SWTQ.package' : #SquotCypressCodeSerializer,
-	'SqueakCheck.package' : #SquotCypressCodeSerializer,
-	'Tools-Browser.package' : #SquotCypressCodeSerializer,
-	'ToolsTests-Browser.package' : #SquotCypressCodeSerializer,
-	'src\/SqueakCheck.package' : #SquotCypressCodeSerializer
+	'AlgebraicDataType-Core.package' : #SquotCypressCodeSerializer,
+	'AlgebraicDataType-Tests.package' : #SquotCypressCodeSerializer,
+	'AlgebraicDataType-Trees.package' : #SquotCypressCodeSerializer,
+	'AlgebraicDataType.package' : #SquotCypressCodeSerializer,
+	'BaselineOfSqueakCheck.package' : #SquotCypressCodeSerializer,
+	'SqueakCheck-Generators.package' : #SquotCypressCodeSerializer,
+	'SqueakCheck-Info.package' : #SquotCypressCodeSerializer,
+	'SqueakCheck-Integration.package' : #SquotCypressCodeSerializer,
+	'SqueakCheck-Runners.package' : #SquotCypressCodeSerializer,
+	'SqueakCheck-SUnit.package' : #SquotCypressCodeSerializer,
+	'SqueakCheckForAlgebraicDataType.package' : #SquotCypressCodeSerializer
 }
