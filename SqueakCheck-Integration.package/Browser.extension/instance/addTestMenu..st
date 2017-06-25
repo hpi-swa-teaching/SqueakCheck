@@ -4,5 +4,5 @@ addTestMenu: aMenu
 	<menuPriority:  415>
 	
 	^aMenu addList: #(
-		('new SqueakCheckTest'	addAndOpenTest));
+		('new SqueakCheck test'	addAndOpenTest));
 	yourself

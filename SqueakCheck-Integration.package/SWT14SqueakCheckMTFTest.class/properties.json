@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakCheck-Integration-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SWT14SqueakCheckMTFTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
