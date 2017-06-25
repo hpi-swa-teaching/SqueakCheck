@@ -3,7 +3,7 @@ testsMenu: aMenu
 	<classListMenu>
 	<messageListMenu>
 	<codePaneMenu>
-	<menuPriority:  400>
+	<menuPriority:  415>
 	
-	self namesOfTestsForSelectedMethod ifNotEmpty: [self addTestMenuItems: self namesOfTestsForSelectedMethod to: aMenu].
+	self namesOfTestsForSelectedMethod ifNotEmpty: [self addTestMenuItems: self compiledTestsForSelectedMethod to: aMenu].
 	^ aMenu.
