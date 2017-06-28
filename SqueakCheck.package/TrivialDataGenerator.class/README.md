@@ -1,1 +1,0 @@
-I provide simple constant-value generators. I'm good for checking infrastructure, but you almost certainly don't want to use me to try falsify a real theory.

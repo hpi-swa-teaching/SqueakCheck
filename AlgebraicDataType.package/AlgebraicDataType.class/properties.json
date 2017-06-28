@@ -1,0 +1,14 @@
+{
+	"category" : "AlgebraicDataType-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 5/25/2011 07:30",
+	"instvars" : [
+		 ],
+	"name" : "AlgebraicDataType",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

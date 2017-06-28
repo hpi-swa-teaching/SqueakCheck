@@ -1,3 +1,0 @@
-generators
-characterData
-        ^ $a.

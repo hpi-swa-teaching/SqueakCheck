@@ -1,3 +1,0 @@
-A TheoryTestCase is a TestCase that allows one to specify theories. A theory is a parameterised test case: you describe a property that should hold for some type of object, and the TheoryTestCase will generate an appropriate object to put under test.
-
-You declare a theory by adding a <theory> pragma (if you want the type of object to be automatically inferred based on the messages sent to the datum) or a <theoryTaking: #MyClass>.

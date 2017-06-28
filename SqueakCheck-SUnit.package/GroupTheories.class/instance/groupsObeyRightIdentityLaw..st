@@ -1,4 +1,6 @@
 group theories
 groupsObeyRightIdentityLaw: x
-	<theory>
+	"i think this shouldn't even work, changing theory to theoryTaking: #SmallInteger for now"
+	<theoryTaking: #SmallInteger>
+	"<theory>"
 	self assert: x equals: (x + x class zero).

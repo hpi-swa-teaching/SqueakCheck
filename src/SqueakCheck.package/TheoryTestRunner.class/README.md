@@ -1,1 +1,0 @@
-I run theories using data generators. If a theory fails, I log its failure to the Transcript.

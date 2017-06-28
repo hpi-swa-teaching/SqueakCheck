@@ -1,3 +1,0 @@
-printing
-printSuccessfulTest
-	self print: '.'.

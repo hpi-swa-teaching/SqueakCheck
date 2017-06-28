@@ -1,3 +1,0 @@
-generators
-integerData
-	^ 1.
