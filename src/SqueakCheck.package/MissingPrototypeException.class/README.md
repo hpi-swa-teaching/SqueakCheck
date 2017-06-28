@@ -1,0 +1,1 @@
+I am raised when the TheoryTyper cannot find a metaclass it expects to find in its environment (usually Smalltalk globals).

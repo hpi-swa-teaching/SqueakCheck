@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakCheck-Generators-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"generator" ],
+	"name" : "RandomDataGeneratorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

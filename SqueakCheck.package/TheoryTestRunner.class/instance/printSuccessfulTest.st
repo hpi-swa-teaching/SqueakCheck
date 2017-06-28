@@ -1,0 +1,3 @@
+printing
+printSuccessfulTest
+	self print: '.'.

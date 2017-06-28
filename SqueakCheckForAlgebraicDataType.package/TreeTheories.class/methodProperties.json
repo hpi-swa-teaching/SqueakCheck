@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"aGeneratedTreeHasNoMoreThan100Nodes:" : "fbs 9/27/2011 07:52",
-		"aTreeHeightIsNeverMoreThanItsNumberOfNodes:" : "fbs 9/12/2011 08:20",
-		"aTreeSizeIsTheSumOfTheSizesOfItsSubparts:" : "fbs 9/12/2011 21:34",
-		"testThatRandomTreeDistributionCoversFullRange" : "fbs 9/28/2011 07:46" } }

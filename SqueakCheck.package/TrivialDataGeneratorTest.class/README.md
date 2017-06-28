@@ -1,0 +1,1 @@
+My methods return constant values. I am thus useful for testing things that need data, but where you don't want random data.

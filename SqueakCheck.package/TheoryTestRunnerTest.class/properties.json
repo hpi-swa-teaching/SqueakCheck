@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakCheck-Runners-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"generator",
+		"runner",
+		"output" ],
+	"name" : "TheoryTestRunnerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

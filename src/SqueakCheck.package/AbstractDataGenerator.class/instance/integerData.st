@@ -1,0 +1,3 @@
+generators
+integerData
+	self subclassResponsibility.

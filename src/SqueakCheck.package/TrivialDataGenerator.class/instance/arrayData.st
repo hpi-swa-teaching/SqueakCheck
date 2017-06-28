@@ -1,0 +1,3 @@
+generators
+arrayData
+	^ #(1).

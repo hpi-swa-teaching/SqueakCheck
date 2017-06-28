@@ -1,3 +1,0 @@
-*SqueakCheckForAlgebraicDataType
-treeData
-	self subclassResponsibility

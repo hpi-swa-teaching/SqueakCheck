@@ -1,0 +1,14 @@
+{
+	"category" : "ToolsTests-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 3/4/2011 07:22",
+	"instvars" : [
+		"browser" ],
+	"name" : "BrowserTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

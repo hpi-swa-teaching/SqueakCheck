@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expectedFailures" : "fbs 3/15/2011 22:40",
+		"setUp" : "nice 7/27/2014 15:15",
+		"testChangeMessageCategoriesLeavesClassSelected" : "fbs 3/16/2011 17:26" } }

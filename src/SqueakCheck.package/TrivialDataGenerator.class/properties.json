@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakCheck-Generators",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 9/14/2011 07:30",
+	"instvars" : [
+		 ],
+	"name" : "TrivialDataGenerator",
+	"pools" : [
+		 ],
+	"super" : "AbstractDataGenerator",
+	"type" : "normal" }

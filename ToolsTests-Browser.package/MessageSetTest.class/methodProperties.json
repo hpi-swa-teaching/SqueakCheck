@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "fbs 4/17/2011 22:23",
+		"setUp" : "fbs 4/17/2011 22:23",
+		"tearDown" : "fbs 3/22/2011 17:34",
+		"testAutoSelectString" : "fbs 4/17/2011 22:22",
+		"testContents" : "fbs 3/29/2011 16:56",
+		"testHasMessageSelected" : "fbs 3/29/2011 16:56",
+		"testRemoveMessageFromBrowser" : "fbs 3/29/2011 16:56",
+		"testSelectedClassOrMetaClass" : "fbs 3/29/2011 16:57",
+		"testSelectedMessageCategoryName" : "fbs 3/29/2011 16:57",
+		"testSelectedMessageName" : "fbs 3/29/2011 16:58",
+		"testSelection" : "fbs 3/29/2011 16:57",
+		"update:" : "fbs 4/17/2011 22:28" } }

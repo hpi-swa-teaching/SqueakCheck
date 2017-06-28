@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakCheck-SUnit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "fbs 4/30/2012 23:05",
+	"instvars" : [
+		"selectors",
+		"classSelectors" ],
+	"name" : "SenderToArgCollector",
+	"pools" : [
+		 ],
+	"super" : "ParseNodeVisitor",
+	"type" : "normal" }

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "fbs 3/23/2011 21:40",
+		"tearDown" : "mt 4/3/2015 22:20",
+		"testCannotUnselectCategory" : "fbs 3/24/2011 07:36",
+		"testOpenMessageNames" : "fbs 3/23/2011 21:40",
+		"testSearchString" : "fbs 3/23/2011 21:48",
+		"testSelectedClassOrMetaClass" : "fbs 3/29/2011 16:55",
+		"testSelectedMessageCategoryName" : "fbs 3/24/2011 07:54",
+		"testSelection" : "fbs 3/24/2011 17:37" } }

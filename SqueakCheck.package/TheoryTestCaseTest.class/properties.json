@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakCheck-SUnit-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"generatorClass" ],
+	"name" : "TheoryTestCaseTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
