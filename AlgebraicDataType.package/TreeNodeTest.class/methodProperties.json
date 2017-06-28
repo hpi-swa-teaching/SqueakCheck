@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testApplyIsInverseOfUnapply" : "fbs 8/3/2011 07:48",
+		"testEmptyListFailsToApply" : "fbs 8/3/2011 07:48",
+		"testEqualsTestsStructuralEquality" : "fbs 8/3/2011 07:48",
+		"testHeightOfaTreeIsOneMoreThanMaxHeightOfItsChildren" : "fbs 9/12/2011 15:41",
+		"testNodeHasChildren" : "fbs 8/3/2011 07:48",
+		"testProperListApplies" : "fbs 8/3/2011 07:48",
+		"testTooIncorrectlyTaggedListFailsToApply" : "fbs 8/3/2011 07:49",
+		"testTooLongListFailsToApply" : "fbs 8/3/2011 07:49",
+		"testTooShortListFailsToApply" : "fbs 8/3/2011 07:49",
+		"testUnapplyFullyShouldDestructureEagerly" : "fbs 8/3/2011 07:49",
+		"testUnapplyShouldDestructureLazily" : "fbs 8/3/2011 07:49" } }

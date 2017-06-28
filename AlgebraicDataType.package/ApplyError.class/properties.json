@@ -1,0 +1,14 @@
+{
+	"category" : "AlgebraicDataType-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ApplyError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

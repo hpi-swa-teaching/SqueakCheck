@@ -1,0 +1,14 @@
+{
+	"category" : "AlgebraicDataType-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LeafTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

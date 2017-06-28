@@ -1,0 +1,3 @@
+*AlgebraicDataType
+unapplyFully
+	^ self.
