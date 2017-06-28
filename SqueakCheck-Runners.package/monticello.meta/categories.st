@@ -1,2 +1,2 @@
-SystemOrganization addCategory: #'SqueakCheck-Runners'!
 SystemOrganization addCategory: #'SqueakCheck-Runners-Tests'!
+SystemOrganization addCategory: #'SqueakCheck-Runners'!
