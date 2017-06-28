@@ -6,8 +6,8 @@ runCase
 	
 	(currentExample = NotAssigned)
 		ifTrue: [	
-			data := self makeTestData: (self class >> testSelector).
 			1 to: testRunSize do: [:i |
+				data := self makeTestData: (self class >> testSelector).
 				currentExample := data.
 				"A TestFailure, or a timeout, will break out of the loop, storing the last used value."
 				[super runCase]

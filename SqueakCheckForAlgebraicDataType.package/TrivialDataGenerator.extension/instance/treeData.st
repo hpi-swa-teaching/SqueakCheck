@@ -1,3 +1,0 @@
-*SqueakCheckForAlgebraicDataType
-treeData
-	^ Tree empty.

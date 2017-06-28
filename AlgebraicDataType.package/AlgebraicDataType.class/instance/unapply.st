@@ -1,3 +1,0 @@
-destructuring
-unapply
-	self subclassResponsibility.

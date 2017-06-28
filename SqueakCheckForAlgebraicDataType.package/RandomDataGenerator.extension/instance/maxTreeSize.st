@@ -1,3 +1,0 @@
-*SqueakCheckForAlgebraicDataType
-maxTreeSize
-	^ 100.
