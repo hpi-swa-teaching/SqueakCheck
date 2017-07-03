@@ -1,8 +1,7 @@
 running
 runCaseOn: data
 
-	1 to: data size do: [:i |
-		currentExample := data at: i.
+	data do: [:currentExample|
 		[super runCase]
 			on: TestFailure do: [:e |
 				(self expectedFailures includes: testSelector)
