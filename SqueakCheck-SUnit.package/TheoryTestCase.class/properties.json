@@ -7,8 +7,7 @@
 	"commentStamp" : "fbs 4/30/2012 23:08",
 	"instvars" : [
 		"currentExample",
-		"generator",
-		"testRunSize" ],
+		"generator" ],
 	"name" : "TheoryTestCase",
 	"pools" : [
 		 ],

@@ -7,7 +7,5 @@ runCase
 	(currentExample = NotAssigned)
 		ifTrue: [	
 			self runCaseOn: (self makeTestData: (self class >> testSelector) with: TrivialDataGenerator new).
-			1 to: testRunSize do: [:i |
-				self runCaseOn: (self makeTestData: (self class >> testSelector) with: generator).]]
-				
-		ifFalse: [super runCase]
+			self runCaseOn: (self makeTestData: (self class >> testSelector) with: generator).]
+		ifFalse: [super runCase].
