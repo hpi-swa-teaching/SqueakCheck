@@ -1,4 +1,4 @@
-as yet unclassified
+complexity
 complexity: aComplexity
 	
 	complexity := aComplexity.
