@@ -7,7 +7,7 @@
 	"commentStamp" : "fbs 9/11/2011 16:19",
 	"instvars" : [
 		"rng",
-		"integerRange" ],
+		"complexity" ],
 	"name" : "RandomDataGenerator",
 	"pools" : [
 		 ],

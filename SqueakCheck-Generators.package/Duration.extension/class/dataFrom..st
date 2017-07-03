@@ -1,5 +1,5 @@
 *SqueakCheck-Generators
 dataFrom: aDataGenerator
-	^ self
-		seconds: (aDataGenerator positiveIntegerData)
-		nanoSeconds: (aDataGenerator positiveIntegerData).
+
+	^ ((aDataGenerator dataCollectionOf: #positiveIntegerData) zip: (aDataGenerator dataCollectionOf: #positiveIntegerData)) collect: [:each|
+		self seconds: each first nanoSeconds: each second].

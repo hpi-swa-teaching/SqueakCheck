@@ -1,3 +1,5 @@
 generators
 characterData
-        ^ Character value: (rng nextInt: 65536).
+        ^ self complexity < self asciiComplexityThreshhold 
+			ifTrue: [Character value: (rng nextInt: 128)]
+			ifFalse: [Character value: (rng nextInt: 65536)].

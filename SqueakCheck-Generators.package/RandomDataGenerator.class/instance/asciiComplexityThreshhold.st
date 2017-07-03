@@ -1,0 +1,4 @@
+generators
+asciiComplexityThreshhold
+
+	^ 50.

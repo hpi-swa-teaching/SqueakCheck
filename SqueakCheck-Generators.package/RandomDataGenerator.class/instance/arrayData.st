@@ -1,8 +1,16 @@
 generators
 arrayData
-	| any cls |
-	any := {[self booleanData]. [self characterData]. [self integerData]. [self stringData]}.
+	| cls complexityBackup result |
+	
 	cls := {Array. OrderedCollection} atRandom: rng.
-	^ (1 to: (rng nextInt: 100) + 1)
+	
+	complexityBackup := self complexity.
+	self complexity: self moderateComplexity.
+	
+	result := (1 to: (rng nextInt: self complexity))
 		inject: cls new
-		into: [:arr :unusedInt | arr , {(any atRandom: rng) value}].
+		into: [:arr :unusedInt | arr , {self objectData}].
+	
+	self complexity: complexityBackup.
+	^ result.
+	

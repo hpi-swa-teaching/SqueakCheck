@@ -1,3 +1,5 @@
 *SqueakCheck-Generators
 dataFrom: aDataGenerator
-	^ self real: aDataGenerator integerData imaginary: aDataGenerator integerData.
+
+	^ ((aDataGenerator dataCollectionOf: #integerData) zip: (aDataGenerator dataCollectionOf: #integerData)) collect: [:each|
+		self real: each first imaginary: each second].
