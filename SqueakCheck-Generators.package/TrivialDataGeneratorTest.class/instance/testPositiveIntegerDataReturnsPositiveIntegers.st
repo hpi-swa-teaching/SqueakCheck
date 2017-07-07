@@ -1,3 +1,3 @@
 testing
 testPositiveIntegerDataReturnsPositiveIntegers
-	self assert: generator positiveIntegerData > 0.
+	self assert: (generator positiveIntegerData > 0).

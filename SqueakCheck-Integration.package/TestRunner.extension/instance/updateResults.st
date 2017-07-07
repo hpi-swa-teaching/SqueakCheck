@@ -5,7 +5,7 @@ updateResults
 
 	self updateStatus: false.
 	failedList size = result failures size ifFalse: [
-		failedList := result failures collect: [:each| ((each asString), '   failed with: ',(each currentExample asString))].
+		failedList := result failures collect: [:each| ((each asString), ((each class canUnderstand: #currentExample) ifTrue: [ '   failed with: ',(each currentExample asString)] ifFalse: ''))].
 		failedList := failedList asArray
 			sort: [ :a :b | a printString <= b printString ].
 

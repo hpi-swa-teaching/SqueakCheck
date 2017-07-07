@@ -1,4 +1,4 @@
 generators
 integerData
 
-	^ (rng nextInt: (self complexity * 2)) - self complexity.
+	^ self dataCollectionOf: [(rng nextInt: (self complexity * 2)) - self complexity].

@@ -1,3 +1,3 @@
 generators
 booleanData
-	^ #(true false) atRandom: rng.
+	^ self dataCollectionOf: [#(true false) atRandom: rng].

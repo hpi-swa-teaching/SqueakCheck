@@ -12,5 +12,5 @@ arrayData
 		into: [:arr :unusedInt | arr , {self objectData}].
 	
 	self complexity: complexityBackup.
-	^ result.
+	^self dataCollectionOf:  [result].
 	
