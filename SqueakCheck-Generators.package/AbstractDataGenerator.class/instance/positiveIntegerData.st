@@ -1,4 +1,4 @@
 generators
 positiveIntegerData
 
-	^ self integerData abs.
+	^ self integerData abs + 1.

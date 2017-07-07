@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakCheck-SUnit",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "InvalidNumberOfArgumentsException",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }
