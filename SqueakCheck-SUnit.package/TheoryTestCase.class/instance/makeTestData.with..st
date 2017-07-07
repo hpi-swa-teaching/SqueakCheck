@@ -1,6 +1,6 @@
 running
 makeTestData: aCompiledMethod with: aGenerator
-	| prototypeClass|
+	| prototypeClasses|
 	
-	prototypeClass := self typeTheory: aCompiledMethod.
-	^(prototypeClass dataFrom: aGenerator) flipSubHierarchy 
+	prototypeClasses := self typeTheory: aCompiledMethod.
+	^(prototypeClasses collect: [ :each | (each dataFrom: aGenerator)]) flipSubHierarchy.  

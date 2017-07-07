@@ -12,6 +12,6 @@ typeTheory: aCompiledMethod
 	
 	prototypeClasses size = 1 ifTrue: [prototypeClasses := ((1 to: testSelector numArgs) collect: [ :unused | prototypeClasses first])].
 	
-	testSelector numArgs ~= prototypeClassNames size ifTrue: [MissingPrototypeException signal: ('expected 1 or ',testSelector numArgs,' arguments for #theoryTaking:, but received ',prototypeClassNames size)].
+	testSelector numArgs ~= prototypeClasses size ifTrue: [MissingPrototypeException signal: ('expected 1 or ',testSelector numArgs,' arguments for #theoryTaking:, but received ',prototypeClassNames size)].
 	
 	^ prototypeClasses
