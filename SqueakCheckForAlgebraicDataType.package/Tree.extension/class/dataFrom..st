@@ -1,3 +1,3 @@
 *SqueakCheckForAlgebraicDataType
 dataFrom: aGenerator
-	^ aGenerator treeData
+	^ aGenerator dataCollectionOf: #Tree.

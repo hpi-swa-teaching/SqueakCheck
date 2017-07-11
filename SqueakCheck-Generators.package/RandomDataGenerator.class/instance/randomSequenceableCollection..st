@@ -1,5 +1,5 @@
 generators
-randomSequencableCollection: anIterationProgress
+randomSequenceableCollection: anIterationProgress
 	| cls result aModerateComplexity |
 	
 	cls := {Array. OrderedCollection} atRandom: rng.

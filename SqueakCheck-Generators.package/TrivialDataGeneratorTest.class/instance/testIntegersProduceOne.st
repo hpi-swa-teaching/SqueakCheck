@@ -1,3 +1,3 @@
 testing
 testIntegersProduceOne
-	self assert: 1 equals: (Integer dataFrom: generator).
+	self assert: ((Integer dataFrom: generator) includes: 1).

@@ -1,3 +1,3 @@
 *SqueakCheck-Generators
 dataFrom: aDataGenerator 
-	^ aDataGenerator booleanData.
+	^ aDataGenerator dataCollectionOf: #Boolean.

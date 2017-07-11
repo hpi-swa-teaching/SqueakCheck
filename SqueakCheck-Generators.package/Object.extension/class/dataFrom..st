@@ -1,3 +1,4 @@
 *SqueakCheck-Generators
 dataFrom: aDataGenerator 
-	^ aDataGenerator objectData
+
+	^ aDataGenerator dataCollectionOf: #Object.

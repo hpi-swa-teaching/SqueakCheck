@@ -1,6 +1,8 @@
 running
 makeTestData: aCompiledMethod with: aGenerator
-	| prototypeClasses|
-	
+	| prototypeClasses testData minLength|
+
 	prototypeClasses := self typeTheory: aCompiledMethod.
-	^(prototypeClasses collect: [ :each | (each dataFrom: aGenerator)]) flipSubHierarchy.  
+	testData := prototypeClasses collect: [ :each | (each dataFrom: aGenerator)].
+	minLength := testData inject: (testData first size) into: [ :min :next | min min: next size].
+	^ (testData collect: [ :each | each first: minLength]) flipSubHierarchy.

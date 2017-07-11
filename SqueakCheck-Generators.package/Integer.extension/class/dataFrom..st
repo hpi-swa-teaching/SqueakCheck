@@ -1,4 +1,4 @@
 *SqueakCheck-Generators
 dataFrom: aDataGenerator
 
-	^ aDataGenerator dataCollectionOf: #integerData.
+	^ aDataGenerator dataCollectionOf: #Integer.

@@ -7,7 +7,7 @@
 		"testArrayaProduceSingleElementArrays" : "fbs 2/18/2012 22:34",
 		"testBooleansProduceTrue" : "fbs 1/28/2012 22:11",
 		"testCharactersProduceA" : "fbs 1/28/2012 22:12",
-		"testIntegersProduceOne" : "fbs 1/28/2012 22:12",
+		"testIntegersProduceOne" : "TZ 7/11/2017 20:10",
 		"testObjectsProduceSomeConstantObject" : "fbs 1/28/2012 22:19",
 		"testPositiveIntegerDataReturnsPositiveIntegers" : "gdf 7/7/2017 22:33",
 		"testStringsProduceaConstantString" : "fbs 1/28/2012 22:21" } }

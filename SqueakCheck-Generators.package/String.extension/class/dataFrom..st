@@ -1,3 +1,3 @@
 *SqueakCheck-Generators
 dataFrom: aGenerator
-        ^ aGenerator stringData.
+        ^ aGenerator dataCollectionOf: String.
