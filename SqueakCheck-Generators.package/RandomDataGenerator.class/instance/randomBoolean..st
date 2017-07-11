@@ -1,3 +1,3 @@
 generators
-booleanData
+randomBoolean: anUnusedParameter
 	^ #(true false) atRandom: rng.

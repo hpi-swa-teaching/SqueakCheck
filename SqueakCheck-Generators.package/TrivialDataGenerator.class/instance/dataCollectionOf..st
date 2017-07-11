@@ -1,4 +1,4 @@
 accessing
-dataCollectionOf: aGeneratorType
+dataCollectionOf: aClassSymbol
 	
-	^ self perform: aGeneratorType.
+	^ self perform: (((aClassSymbol asString at: 1 put: (aClassSymbol first asLowercase); yourself), 'Data') asSymbol).

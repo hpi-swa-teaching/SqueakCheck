@@ -1,0 +1,3 @@
+generators
+sequenceableCollectionData
+	^ #(1).

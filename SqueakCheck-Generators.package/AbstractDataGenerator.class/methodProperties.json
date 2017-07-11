@@ -3,10 +3,4 @@
 		 },
 	"instance" : {
 		"anyOf:" : "fbs 1/28/2012 20:25",
-		"arrayData" : "fbs 2/18/2012 22:33",
-		"booleanData" : "fbs 9/8/2011 20:07",
-		"characterData" : "fbs 9/13/2011 21:21",
-		"integerData" : "fbs 9/8/2011 20:08",
-		"objectData" : "fbs 9/8/2011 21:29",
-		"positiveIntegerData" : "gdf 7/7/2017 19:26",
-		"stringData" : "fbs 9/13/2011 21:20" } }
+		"dataCollectionOf:" : "TZ 7/11/2017 16:59" } }

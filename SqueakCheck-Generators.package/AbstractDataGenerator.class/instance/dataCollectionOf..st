@@ -1,3 +1,4 @@
 generators
-arrayData
+dataCollectionOf: aClassSymbol
+
 	self subclassResponsibility.

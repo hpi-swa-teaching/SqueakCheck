@@ -1,4 +1,4 @@
 generators
 asciiComplexityThreshhold
 
-	^ 50.
+	^ 0.75.
