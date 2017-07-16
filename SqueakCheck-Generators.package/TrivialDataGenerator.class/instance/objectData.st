@@ -1,3 +1,3 @@
 generators
 objectData
-	^ self.
+	^ {self}.

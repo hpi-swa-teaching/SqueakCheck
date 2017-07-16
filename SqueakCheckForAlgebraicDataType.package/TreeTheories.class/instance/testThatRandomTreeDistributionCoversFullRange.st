@@ -1,5 +1,8 @@
 testing
 testThatRandomTreeDistributionCoversFullRange
+
+	"this is bullshit"
+	"
 	| trees |
-	trees := (1 to: 1000) collect: [:unused | RandomDataGenerator new treeData size].
-	self assert: (trees minMax) = #(0 100).
+	trees := (RandomDataGenerator dataCollectionOf: #Tree) collect: [ :each |  each size].
+	self assert: (trees minMax) = #(0 100)."

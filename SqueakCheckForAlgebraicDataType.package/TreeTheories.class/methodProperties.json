@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"aGeneratedTreeHasNoMoreThan100Nodes:" : "fbs 9/27/2011 07:52",
+		"aGeneratedTreeHasNoMoreThan100Nodes:" : "gdf 7/16/2017 15:22",
 		"aTreeHeightIsNeverMoreThanItsNumberOfNodes:" : "fbs 9/12/2011 08:20",
 		"aTreeSizeIsTheSumOfTheSizesOfItsSubparts:" : "fbs 9/12/2011 21:34",
-		"testThatRandomTreeDistributionCoversFullRange" : "fbs 9/28/2011 07:46" } }
+		"testThatRandomTreeDistributionCoversFullRange" : "gdf 7/16/2017 15:40" } }

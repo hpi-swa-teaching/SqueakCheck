@@ -5,8 +5,9 @@
 		"anyOf:" : "fbs 1/28/2012 20:25",
 		"booleanData" : "fbs 9/8/2011 20:08",
 		"characterData" : "fbs 9/13/2011 21:21",
-		"dataCollectionOf:" : "TZ 7/11/2017 19:14",
+		"dataCollectionOf:" : "gdf 7/16/2017 14:43",
 		"integerData" : "gdf 7/1/2017 22:04",
-		"objectData" : "fbs 9/8/2011 21:29",
+		"objectData" : "gdf 7/16/2017 15:01",
+		"positiveIntegerData" : "gdf 7/16/2017 14:48",
 		"sequenceableCollectionData" : "TZ 7/11/2017 19:05",
-		"stringData" : "fbs 9/13/2011 21:20" } }
+		"stringData" : "gdf 7/16/2017 14:42" } }
