@@ -5,9 +5,9 @@
 		"setUp" : "fbs 9/10/2011 22:26",
 		"testACharacterProducesCharacters" : "TZ 7/11/2017 20:17",
 		"testAnArrayProducesDataFromItsElements" : "gdf 7/16/2017 14:54",
-		"testAnIntegerProducesIntegers" : "fbs 1/28/2012 22:09",
+		"testAnIntegerProducesIntegers" : "Tc 7/18/2017 13:26",
 		"testArraysProduceArrays" : "fbs 2/18/2012 22:35",
-		"testFalseProducesBooleans" : "fbs 1/28/2012 22:09",
-		"testPositiveIntegerDataReturnsPositiveIntegers" : "gdf 7/16/2017 14:53",
-		"testStringProducesStrings" : "fbs 1/28/2012 22:10",
-		"testTrueProducesBooleans" : "fbs 1/28/2012 22:10" } }
+		"testFalseProducesBooleans" : "Tc 7/18/2017 13:22",
+		"testPositiveIntegerDataReturnsPositiveIntegers" : "Tc 7/18/2017 13:22",
+		"testStringProducesStrings" : "Tc 7/18/2017 13:22",
+		"testTrueProducesBooleans" : "Tc 7/18/2017 13:18" } }

@@ -1,3 +1,4 @@
 testing
 testTrueProducesBooleans
-	100 timesRepeat: [self assert: (#(true false) includes: (Boolean dataFrom: generator))]
+
+	self assert:((Boolean dataFrom: generator) allSatisfy: [:each | #(true false)  includes: each]).
