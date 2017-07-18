@@ -10,5 +10,5 @@
 	"name" : "SWT14SqueakCheckMTFTest",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "Object",
 	"type" : "normal" }
