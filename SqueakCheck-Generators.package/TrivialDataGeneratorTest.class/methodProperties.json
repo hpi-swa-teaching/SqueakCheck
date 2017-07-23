@@ -6,8 +6,7 @@
 		"testAnArrayProducesDataFromItsFirstElement" : "fbs 1/27/2012 18:58",
 		"testArrayaProduceSingleElementArrays" : "fbs 2/18/2012 22:34",
 		"testBooleansProduceTrue" : "fbs 1/28/2012 22:11",
-		"testCharactersProduceA" : "fbs 1/28/2012 22:12",
+		"testCharactersProduceA" : "TZ 7/23/2017 15:46",
 		"testIntegersProduceOne" : "TZ 7/11/2017 20:10",
 		"testObjectsProduceSomeConstantObject" : "fbs 1/28/2012 22:19",
-		"testPositiveIntegerDataReturnsPositiveIntegers" : "gdf 7/16/2017 14:49",
-		"testStringsProduceaConstantString" : "gdf 7/16/2017 14:42" } }
+		"testStringsProduceAConstantString" : "TZ 7/23/2017 15:47" } }

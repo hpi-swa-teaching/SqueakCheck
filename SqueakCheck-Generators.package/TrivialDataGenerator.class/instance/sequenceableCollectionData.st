@@ -1,3 +1,3 @@
 generators
 sequenceableCollectionData
-	^ #(1).
+	^ {#(1). #(). OrderedCollection new.}

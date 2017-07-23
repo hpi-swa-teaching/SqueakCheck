@@ -1,3 +1,3 @@
 generators
 stringData
-        ^ {'I am a test string'}
+        ^ {''. 'I am a test string'}.

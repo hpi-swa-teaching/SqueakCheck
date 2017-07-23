@@ -1,3 +1,3 @@
 testing
 testCharactersProduceA
-	self assert: $a equals: (Character dataFrom: generator).
+	self assert: ((Character dataFrom: generator) includes: $a).

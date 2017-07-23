@@ -1,3 +1,3 @@
 generators
 characterData
-        ^ $a.
+        ^ {$a. $A. $1. Character space. $ü}.
