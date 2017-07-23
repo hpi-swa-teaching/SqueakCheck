@@ -1,5 +1,5 @@
 *SqueakCheck-Integration
-addSqueakCheckTestStartMenuItemToCategoryMenu: aMenu
+addRunSqueakCheckTestMenuItemToCategoryMenu: aMenu
 <messageCategoryMenu>
 	aMenu addList: #(
 		('run all SqueakCheck tests' runAllSqueakCheckTestsForMethodCategory)
