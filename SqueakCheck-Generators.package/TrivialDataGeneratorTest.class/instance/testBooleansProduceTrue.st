@@ -1,3 +1,3 @@
 testing
 testBooleansProduceTrue
-	self assert: true equals: (Boolean dataFrom: generator).
+	self assert: ((Boolean dataFrom: generator) includes: true).

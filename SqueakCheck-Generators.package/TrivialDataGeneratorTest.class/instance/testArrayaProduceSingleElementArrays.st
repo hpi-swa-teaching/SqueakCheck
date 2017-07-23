@@ -1,5 +1,5 @@
 testing
 testArrayaProduceSingleElementArrays
-	self assert: #(1) equals: (SequenceableCollection dataFrom: generator).
-	self assert: #(1) equals: (Array dataFrom: generator).
-	self assert: #(1) equals: (OrderedCollection dataFrom: generator).
+	self assert: ((SequenceableCollection dataFrom: generator) includes: #(1)).
+	self assert: ((Array dataFrom: generator) includes: #(1)).
+	self assert: ((OrderedCollection dataFrom: generator) includes: #(1)).
