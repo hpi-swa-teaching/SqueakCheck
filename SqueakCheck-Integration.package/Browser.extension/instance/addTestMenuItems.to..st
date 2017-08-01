@@ -1,8 +1,8 @@
 *SqueakCheck-Integration
-addTestMenuItems: compiledMethods to: aMenu
+addTestMenuItems: methodSelectors to: aMenu
 	|subMenu|
 	
 	subMenu := MenuMorph new.
-	compiledMethods do: [:each | self addTestModificationMenuItems: each to: subMenu].
+	methodSelectors do: [:each | self addTestModificationMenuItems: each to: subMenu].
 	aMenu add: (self testsMenuItemName) subMenu: subMenu.
 	

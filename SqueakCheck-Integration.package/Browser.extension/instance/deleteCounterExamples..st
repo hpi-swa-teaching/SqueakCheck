@@ -1,6 +1,8 @@
 *SqueakCheck-Integration
-deleteCounterExamples: aCompiledMethod
+deleteCounterExamples: aSelector
+	| allCounterExamples relevantCounterExamples |
 	
-	(self counterExamples: aCompiledMethod) do: [:each|
-		aCompiledMethod methodClass removeSelector: (each selector)].
+	allCounterExamples := self counterExamplesInClass: self classWithTestsForSelectedClass.
+	relevantCounterExamples := allCounterExamples select: [ :each | each literals includes: aSelector ].
+	relevantCounterExamples do: [ :each | self classWithTestsForSelectedClass removeSelector: each selector ].
 	self changed: #messageList.

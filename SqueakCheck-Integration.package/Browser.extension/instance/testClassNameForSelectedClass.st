@@ -1,4 +1,4 @@
 *SqueakCheck-Integration
-classNameForTest
+testClassNameForSelectedClass
 	
 	^ (self selectedClassName), 'Tests'.

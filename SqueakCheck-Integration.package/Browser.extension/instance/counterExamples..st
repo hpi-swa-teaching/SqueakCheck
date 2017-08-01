@@ -1,5 +1,5 @@
 *SqueakCheck-Integration
-counterExamples: aCompiledMethod
+counterExamples: aSelector
 
-	^ ((self counterExamplesInClass: aCompiledMethod) select: [:each|
-			each messages includes: (aCompiledMethod selector)]).
+	^ ((self counterExamplesInClass: self classWithTestsForSelectedClass) select: [ :each |
+			each messages includes: aSelector]).

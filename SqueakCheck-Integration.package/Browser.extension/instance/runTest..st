@@ -1,7 +1,7 @@
 *SqueakCheck-Integration
-runTest: aCompiledMethod
+runTest: aSelector
 	|suite|
 	
-	suite := (self environment classNamed: self classNameForTest) selector: (aCompiledMethod selector).
+	suite := (self environment classNamed: self testClassNameForSelectedClass) selector: aSelector.
 	self testRunSuite: suite.
 	self changed: #messageList.

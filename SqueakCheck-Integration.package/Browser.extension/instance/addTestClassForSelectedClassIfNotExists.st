@@ -1,8 +1,10 @@
 *SqueakCheck-Integration
-addClass
+addTestClassForSelectedClassIfNotExists
 
+	self classWithTestsForSelectedClass ifNotNil: [ ^ self ].
+	
 	ClassBuilder new
-		name: self classNameForTest asSymbol
+		name: self testClassNameForSelectedClass asSymbol
 		inEnvironment: self selectedClass environment
 		subclassOf: TheoryTestCase
 		type: #normal

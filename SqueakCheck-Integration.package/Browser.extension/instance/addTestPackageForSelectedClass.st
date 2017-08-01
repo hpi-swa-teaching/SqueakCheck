@@ -1,4 +1,4 @@
 *SqueakCheck-Integration
 addTestPackageForSelectedClass
 	
-	SystemOrganization addCategory: (self categoryNameForTest) before: (self selectedClassName asSymbol).
+	SystemOrganization addCategory: (self categoryNameForTest) before: (self selectedClass category asSymbol).

@@ -1,5 +1,5 @@
 *SqueakCheck-Integration
-counterExamplesInClass: aCompiledMethod
+counterExamplesInClass: aClass
 
-	^ aCompiledMethod methodClass methodDict values select: [:each|
-		 (aCompiledMethod methodClass organization categoryOfElement: (each selector)) = #'counterexamples'].
+	^ aClass methodDict values select: [:each|
+		 (aClass organization categoryOfElement: (each selector)) = #'counterexamples'].
