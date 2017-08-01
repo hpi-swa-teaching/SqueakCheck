@@ -1,4 +1,0 @@
-*SqueakCheck-Integration
-failedListWithCounterexamples
-
-	^ failedListWithCounterexamples.
