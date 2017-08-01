@@ -10,5 +10,5 @@
 	"name" : "SWT14SqueakCheckTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }
