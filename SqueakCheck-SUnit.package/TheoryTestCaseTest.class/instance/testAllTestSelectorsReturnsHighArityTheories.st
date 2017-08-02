@@ -6,4 +6,4 @@ testAllTestSelectorsReturnsHighArityTheories
 	<theory>
 	self deny: ({one. two. three. four} anySatisfy: #isNil)."
 	"The list contains high arity theories."
-	self assert: (list includes: #highArityTheories:receiveTheSame:kindsOf:input:).
+	self assert: (list includes: #highArityTheories:receive:notNil:input:).

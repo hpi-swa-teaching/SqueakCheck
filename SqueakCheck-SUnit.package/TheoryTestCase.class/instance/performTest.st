@@ -1,5 +1,6 @@
 private
 performTest
-	^ (self runningATheory)
+
+	^ self runningATheory
 		ifTrue: [self performTest: currentExample]
-		ifFalse: [super performTest]
+		ifFalse: [super performTest].

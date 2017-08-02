@@ -7,4 +7,4 @@ runCase: someObjects
 		after: self timeoutForSetUp.
 	self timeout: [self performTest: someObjects]
 		after: self timeoutForTest]
-		ensure: [self tearDown]
+		ensure: [self tearDown].

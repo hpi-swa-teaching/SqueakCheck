@@ -7,5 +7,5 @@
 		"aTheoryMayDescribeItsExpectedInput:" : "fbs 9/10/2011 13:58",
 		"anExpectedFailingTheoryFails:" : "fbs 9/27/2011 18:07",
 		"expectedFailures" : "fbs 9/27/2011 18:22",
-		"highArityTheories:receiveTheSame:kindsOf:input:" : "fbs 2/2/2012 09:18",
+		"highArityTheories:receive:notNil:input:" : "gdf 8/2/2017 12:33",
 		"testThisShowsUpInTestSelectors" : "fbs 9/27/2011 18:15" } }

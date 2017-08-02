@@ -1,4 +1,5 @@
 initialize-release
 initialize
+
 	currentExample := NotAssigned.
-	generator := self generatorClass new.
+	self generator: self generatorClass new.
