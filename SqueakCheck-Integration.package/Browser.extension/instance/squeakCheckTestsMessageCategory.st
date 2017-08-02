@@ -1,0 +1,4 @@
+*SqueakCheck-Integration
+squeakCheckTestsMessageCategory
+	
+	^ 'squeakCheckTests'.

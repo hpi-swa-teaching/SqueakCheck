@@ -7,5 +7,5 @@ methodFullName
 	[self nameTaken: methodFullName, ':'] whileTrue: [
 		offset := offset + 1.
 		methodFullName := self methodBaseName, offset asString].
-	^ methodFullName.
+	^ methodFullName, ':'.
 

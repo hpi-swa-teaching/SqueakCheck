@@ -1,10 +1,10 @@
 *SqueakCheck-Integration
 addMethodInCategory
-	| methodFullName testtmp |
+	| methodFullName |
 	
 	methodFullName := self methodFullName.
-	testtmp:=self classWithTestsForSelectedClass
+	self classWithTestsForSelectedClass
 		compile: (self newMethodContent: methodFullName)
-		classified: 'squeakCheckTests'.
+		classified: self squeakCheckTestsMessageCategory.
 	^ methodFullName.
 

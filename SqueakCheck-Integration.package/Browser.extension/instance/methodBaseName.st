@@ -1,4 +1,4 @@
 *SqueakCheck-Integration
 methodBaseName
 
-	^ 'scTest', (self messageNameWithoutColons: self selectedMessageName).
+	^ 'test', (self messageNameWithoutColons: self selectedMessageName).

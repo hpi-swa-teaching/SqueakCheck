@@ -4,5 +4,5 @@ addTestMenuItems: methodSelectors to: aMenu
 	
 	subMenu := MenuMorph new.
 	methodSelectors do: [:each | self addTestModificationMenuItems: each to: subMenu].
-	aMenu add: (self testsMenuItemName) subMenu: subMenu.
+	aMenu add: 'SqueakCheck tests' subMenu: subMenu.
 	
