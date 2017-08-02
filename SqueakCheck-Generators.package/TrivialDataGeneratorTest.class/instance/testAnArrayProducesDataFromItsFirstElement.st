@@ -1,3 +1,3 @@
 testing
 testAnArrayProducesDataFromItsFirstElement
-	self assert: true equals: ({true. 1. 'two'. Object new.} dataFrom: generator).
+	self assert: #(true false) equals: ({true. 1. 'two'. Object new.} dataFrom: generator).

@@ -1,6 +1,8 @@
 testing
 testObjectsProduceSomeConstantObject
-	| o |
-	o := Object dataFrom: generator.
-	{Object new. Class. Smalltalk.} do: [:each |
-		self assert: o equals: (each class dataFrom: generator)].
+	| trivialObjectData |
+	
+	trivialObjectData := Object dataFrom: generator.
+	({Object new. Class. Smalltalk.} collect: [ :each |
+		trivialObjectData zip: (each class dataFrom: generator)]) do: [ :each |
+			self assert: each first class = each second class ].
