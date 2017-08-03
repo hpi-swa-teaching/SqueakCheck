@@ -6,10 +6,10 @@ testMethodGeneration
 	browser selectClass: self class.
 	browser selectMessageNamed: #testTrue.
 	
-	self assert: browser namesOfTestsForSelectedMethod isEmpty.
+	self assert: browser selectorsOfTestsForSelectedMethod isEmpty.
 	browser addTestForSelectedMethod.
-	self assert: (browser namesOfTestsForSelectedMethod size == 1).
+	self assert: (browser selectorsOfTestsForSelectedMethod size == 1).
 	browser addTestForSelectedMethod.
-	self assert: (browser namesOfTestsForSelectedMethod size == 2).
+	self assert: (browser selectorsOfTestsForSelectedMethod size == 2).
 	
 	SystemOrganization removeSystemCategory: browser categoryNameForTest asSymbol.	

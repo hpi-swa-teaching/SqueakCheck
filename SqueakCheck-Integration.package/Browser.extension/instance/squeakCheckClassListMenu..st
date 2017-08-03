@@ -2,6 +2,6 @@
 squeakCheckClassListMenu: aMenu
 	<classListMenu>
 
-	self testsForSelectedClass ifEmpty: [^ aMenu].
+	self selectorsOfTestsForSelectedClass ifEmpty: [^ aMenu].
 	aMenu addList: #(('run all SqueakCheck tests' runAllSqueakCheckTestsForClass)).
 	^ aMenu.

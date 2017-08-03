@@ -1,5 +1,5 @@
 *SqueakCheck-Integration
-testsForSelectedMethodCategory
+selectorsOfTestsForSelectedMethodCategory
 
 	^ self methodsInSelectedCategory inject: OrderedCollection new into: [:previous :each|
-		previous union: (self namesOfTestsForMethod: each)]
+		previous union: (self selectorsOfTestsForMethodSelector: each)]
