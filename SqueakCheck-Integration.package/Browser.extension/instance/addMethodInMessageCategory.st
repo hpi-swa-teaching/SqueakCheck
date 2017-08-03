@@ -3,7 +3,7 @@ addMethodInMessageCategory
 	| methodFullName |
 	
 	methodFullName := self methodFullName.
-	self classWithTestsForSelectedClass
+	self testClassForSelectedClass
 		compile: (self newMethodContent: methodFullName)
 		classified: self squeakCheckTestsMessageCategory.
 	^ methodFullName.

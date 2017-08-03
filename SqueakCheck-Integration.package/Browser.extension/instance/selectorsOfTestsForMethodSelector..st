@@ -1,7 +1,7 @@
 *SqueakCheck-Integration
 selectorsOfTestsForMethodSelector: aSelector
 
-	^ self classWithTestsForSelectedClass
+	^ self testClassForSelectedClass
 		ifNil: [Array new]
 		ifNotNil: [self testSelectorsInRightCategory select: [:each|
-			(self classWithTestsForSelectedClass >> each) messages includes: aSelector]].
+			(self testClassForSelectedClass >> each) messages includes: aSelector]].

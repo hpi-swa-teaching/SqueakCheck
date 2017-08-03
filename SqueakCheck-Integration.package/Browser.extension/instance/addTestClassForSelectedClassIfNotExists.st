@@ -1,7 +1,7 @@
 *SqueakCheck-Integration
 addTestClassForSelectedClassIfNotExists
 
-	self classWithTestsForSelectedClass ifNotNil: [^ self].
+	self testClassForSelectedClass ifNotNil: [^ self].
 	
 	ClassBuilder new
 		name: self testClassNameForSelectedClass asSymbol

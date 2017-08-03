@@ -1,4 +1,4 @@
 *SqueakCheck-Integration
 openMethod: aSelector
 	
-	self classWithTestsForSelectedClass browse selectMessageNamed: aSelector.
+	self testClassForSelectedClass browse selectMessageNamed: aSelector.

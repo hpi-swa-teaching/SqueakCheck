@@ -1,4 +1,4 @@
 *SqueakCheck-Integration
-classWithTestsForSelectedClass
+testClassForSelectedClass
 
 	^ self selectedClass environment classNamed: self testClassNameForSelectedClass.
