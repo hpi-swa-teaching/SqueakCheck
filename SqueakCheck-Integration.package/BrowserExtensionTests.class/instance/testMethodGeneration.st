@@ -1,15 +1,10 @@
 testing
 testMethodGeneration
-	|browser|
+
+	SystemOrganization removeSystemCategory: self browser categoryNameForTest asSymbol.	
 	
-	browser := Browser new.
-	browser selectClass: self class.
-	browser selectMessageNamed: #testTrue.
-	
-	self assert: browser selectorsOfTestsForSelectedMethod isEmpty.
-	browser addTestForSelectedMethod.
-	self assert: (browser selectorsOfTestsForSelectedMethod size == 1).
-	browser addTestForSelectedMethod.
-	self assert: (browser selectorsOfTestsForSelectedMethod size == 2).
-	
-	SystemOrganization removeSystemCategory: browser categoryNameForTest asSymbol.	
+	self assert: self browser selectorsOfTestsForSelectedMethod isEmpty.
+	self browser addTestForSelectedMethod.
+	self assert: (self browser selectorsOfTestsForSelectedMethod size == 1).
+	self browser addTestForSelectedMethod.
+	self assert: (self browser selectorsOfTestsForSelectedMethod size == 2).

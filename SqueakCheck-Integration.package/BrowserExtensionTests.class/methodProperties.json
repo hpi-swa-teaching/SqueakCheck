@@ -2,8 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"returnInput:" : "MV 8/3/2017 18:41",
-		"testDataFromsAreFound" : "MV 8/3/2017 16:26",
-		"testMethodGeneration" : "MV 8/3/2017 16:43",
-		"testMethodNaming" : "MV 8/3/2017 17:31",
+		"browser" : "gdf 8/3/2017 22:36",
+		"browser:" : "gdf 8/3/2017 22:36",
+		"returnInput:" : "gdf 8/3/2017 22:36",
+		"setUp" : "gdf 8/3/2017 22:37",
+		"tearDown" : "gdf 8/3/2017 22:38",
+		"testDataFromsAreFound" : "gdf 8/3/2017 22:37",
+		"testMethodGeneration" : "gdf 8/3/2017 22:38",
+		"testMethodNaming" : "gdf 8/3/2017 22:39",
 		"testTrue" : "gdf 6/22/2017 13:54" } }

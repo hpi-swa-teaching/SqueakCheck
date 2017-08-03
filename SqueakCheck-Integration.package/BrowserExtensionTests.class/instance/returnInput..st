@@ -1,4 +1,5 @@
 testdata
-returnInput: aInput
+returnInput: anInput
 	
-	^ aInput.
+	self flag: 'unused?'.
+	^ anInput.
