@@ -1,5 +1,5 @@
 *SqueakCheck-Integration
-addMethodInCategory
+addMethodInMessageCategory
 	| methodFullName |
 	
 	methodFullName := self methodFullName.

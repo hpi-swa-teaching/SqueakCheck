@@ -1,0 +1,4 @@
+testdata
+returnInput: aInput
+	
+	^ aInput.

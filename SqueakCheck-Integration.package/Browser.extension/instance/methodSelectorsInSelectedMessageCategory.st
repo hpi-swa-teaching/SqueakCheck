@@ -1,5 +1,5 @@
 *SqueakCheck-Integration
-methodsInSelectedCategory
+methodSelectorsInSelectedMessageCategory
 
 	^ self selectedClass
 		ifNil: [OrderedCollection new]

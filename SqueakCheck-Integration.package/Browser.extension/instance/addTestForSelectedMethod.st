@@ -3,6 +3,6 @@ addTestForSelectedMethod
 
 	self addTestPackageForSelectedClass.
 	self addTestClassForSelectedClassIfNotExists.
-	^ self addMethodInCategory.
+	^ self addMethodInMessageCategory.
 
 

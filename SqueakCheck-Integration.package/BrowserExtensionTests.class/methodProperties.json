@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"returnInput:" : "MV 8/3/2017 18:41",
 		"testDataFromsAreFound" : "MV 8/3/2017 16:26",
 		"testMethodGeneration" : "MV 8/3/2017 16:43",
 		"testMethodNaming" : "MV 8/3/2017 17:31",

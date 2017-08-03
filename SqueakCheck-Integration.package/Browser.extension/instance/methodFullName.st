@@ -1,6 +1,6 @@
 *SqueakCheck-Integration
 methodFullName 
-	|methodFullName offset|
+	| methodFullName offset |
 
 	offset := 0.
 	methodFullName := self methodBaseName.

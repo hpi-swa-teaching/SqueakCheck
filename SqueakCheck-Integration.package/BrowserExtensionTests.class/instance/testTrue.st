@@ -1,4 +1,4 @@
-testing
+testdata
 testTrue
 
 	self assert: true.
