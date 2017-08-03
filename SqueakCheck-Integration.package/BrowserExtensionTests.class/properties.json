@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SWT14SqueakCheckTest",
+	"name" : "BrowserExtensionTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
