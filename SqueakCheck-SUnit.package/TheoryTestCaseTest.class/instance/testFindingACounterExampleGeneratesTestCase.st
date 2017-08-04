@@ -1,8 +1,8 @@
 testing
 testFindingACounterExampleGeneratesTestCase
 	| expectedTestCaseName test |
-	self flag: 'fixing needed, block is never evaluated'.
 	"Magic name comes from the result of TrivialDataGenerator >> objectData returning itself."
+	
 	expectedTestCaseName := #testAFailingTheoryFailsWithATrivialDataGenerator.
 	test := TheoryTestData selector: #testAFailingTheoryFails:.
 	test generator: TrivialDataGenerator new.
