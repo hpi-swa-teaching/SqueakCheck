@@ -2,10 +2,10 @@
 	"class" : {
 		"isAbstract" : "gdf 8/4/2017 15:25" },
 	"instance" : {
-		"aPassingTheoryPasses:" : "fbs 9/9/2011 08:00",
-		"aTheoryMayDescribeItsExpectedInput:" : "fbs 9/10/2011 13:58",
-		"anExpectedFailingTheoryFails:" : "fbs 9/27/2011 18:07",
-		"expectedFailures" : "fbs 9/27/2011 18:22",
+		"aPassingTheoryPasses:" : "gdf 8/4/2017 17:36",
+		"aTheoryMayDescribeItsExpectedInput:" : "gdf 8/4/2017 17:36",
+		"anExpectedFailingTheoryFails:" : "gdf 8/4/2017 17:36",
+		"expectedFailures" : "gdf 8/4/2017 17:36",
 		"highArityTheories:receive:notNil:input:" : "gdf 8/4/2017 15:27",
 		"testAFailingTheoryFails:" : "gdf 8/4/2017 16:13",
 		"testAFailingTheoryFailsNoCounterexample:" : "gdf 8/4/2017 16:08",
