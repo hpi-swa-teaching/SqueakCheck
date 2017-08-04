@@ -1,6 +1,6 @@
 theories
 testAFailingTheoryFails: anObject
 	<theory>
-	<generateCounterExamples>
+	<generateCounterexamples>
 	
 	self deny: anObject == anObject.

@@ -20,7 +20,7 @@ To delete generated counterexamples: 					rightclick the method and select -Sque
 To open the new test: 									rightclick the method and select -SqueakCheck tests-, then select your test and click -open-
 To specify the class of objects to be tested:				switch -SmallInteger- in the pragma <theoryTaking: #(SmallInteger)> for your class
 To specify multiple classes for multiple parameters:		switch from <theoryTaking: #(SmallInteger)> to e.g. <theoryTaking: #(SmallInteger String SmallInteger)> 		
-To prevent counterexamples from being generated: 	remove the pragma <generateCounterExamples>
+To prevent counterexamples from being generated: 	remove the pragma <generateCounterexamples>
 "
 !' readStream nextChunkText)
 			key: #squeakCheck
