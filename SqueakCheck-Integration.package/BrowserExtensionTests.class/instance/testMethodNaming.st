@@ -1,8 +1,6 @@
 testing
 testMethodNaming
-	
-	SystemOrganization removeSystemCategory: self browser categoryNameForTest asSymbol.	
-		
+			
 	self
 		deny: (self browser selectorsOfTestsForSelectedMethod includes: #testReturnTrue:);
 		deny: (self browser selectorsOfTestsForSelectedMethod includes: #testReturnTrue1:);
