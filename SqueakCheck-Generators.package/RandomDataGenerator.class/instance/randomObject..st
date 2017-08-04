@@ -1,7 +1,7 @@
 generators
 randomObject: anIterationProgress
-	| sel |
+	| selector |
 	
-	sel := ((self class allSelectors select: [:name | name beginsWith: 'random'])
-		reject: [:name | name == #objectData]) atRandom: rng.
-	^ self perform: sel withArguments: {anIterationProgress}.
+	selector := ((self class allSelectors select: [:name | name beginsWith: 'random'])
+		reject: [:name | name == #randomObject:]) atRandom: rng.
+	^ self perform: selector withArguments: {anIterationProgress}.

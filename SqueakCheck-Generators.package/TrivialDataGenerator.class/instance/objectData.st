@@ -1,3 +1,4 @@
 generators
 objectData
-	^ {self. Object. Object new. 1}
+
+	^ {self. Object. Object new. 1}.

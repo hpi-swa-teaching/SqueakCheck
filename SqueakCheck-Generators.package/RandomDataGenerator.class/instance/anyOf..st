@@ -1,6 +1,7 @@
 generators
 anyOf: anArray
 	| sample |
+	
 	sample := anArray atRandom: rng.
 	^ (sample isBehavior
 		ifTrue: [sample]

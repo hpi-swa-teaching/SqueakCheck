@@ -1,4 +1,4 @@
 generators
 randomPositiveInteger: anIterationProgress
 	
-	^ (self randomInteger: anIterationProgress) abs + 1
+	^ (self randomInteger: anIterationProgress) abs + 1.

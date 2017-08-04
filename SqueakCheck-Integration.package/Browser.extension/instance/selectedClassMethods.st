@@ -3,4 +3,4 @@ selectedClassMethods
 	
 	^ self selectedClass
 		ifNotNil: [self selectedClass selectors] 
-		ifNil: [{}].
+		ifNil: [OrderedCollection new].

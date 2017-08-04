@@ -1,3 +1,4 @@
 generators
 positiveIntegerData
-	^ self integerData abs collect: [ :each | each + 1]
+
+	^ self integerData abs reject: [:each | each < 1].

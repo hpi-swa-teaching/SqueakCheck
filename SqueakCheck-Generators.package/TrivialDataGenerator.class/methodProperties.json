@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"anyOf:" : "fbs 1/28/2012 20:25",
-		"booleanData" : "TZ 7/23/2017 15:56",
-		"characterData" : "TZ 7/23/2017 15:55",
-		"dataCollectionOf:" : "TZ 7/11/2017 19:14",
-		"integerData" : "gdf 7/1/2017 22:04",
-		"objectData" : "TZ 7/23/2017 15:58",
-		"positiveIntegerData" : "gdf 7/16/2017 14:48",
-		"sequenceableCollectionData" : "TZ 7/23/2017 16:00",
-		"stringData" : "TZ 7/23/2017 16:00" } }
+		"anyOf:" : "gdf 8/4/2017 14:23",
+		"booleanData" : "gdf 8/4/2017 14:23",
+		"characterData" : "gdf 8/4/2017 14:24",
+		"dataCollectionOf:" : "gdf 8/4/2017 14:25",
+		"integerData" : "gdf 8/4/2017 14:31",
+		"objectData" : "gdf 8/4/2017 14:31",
+		"positiveIntegerData" : "gdf 8/4/2017 14:33",
+		"sequenceableCollectionData" : "gdf 8/4/2017 14:34",
+		"stringData" : "gdf 8/4/2017 14:34" } }

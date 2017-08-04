@@ -1,3 +1,4 @@
 *SqueakCheckForAlgebraicDataType
 treeData
+
 	^ {Tree empty}.

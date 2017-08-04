@@ -1,3 +1,4 @@
 generators
 booleanData
-	^ {true. false}
+
+	^ {true. false}.
