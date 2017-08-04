@@ -6,7 +6,6 @@ testFindingACounterExampleGeneratesTestCase
 	expectedTestCaseName := #testAFailingTheoryFailsWithATrivialDataGenerator.
 	test := TheoryTestData selector: #testAFailingTheoryFails:.
 	test generator: TrivialDataGenerator new.
-	[[test runCase]
-		on: TestFailure do: ["Eat the expected failure"].
-	self assert: (TheoryTestData canUnderstand: expectedTestCaseName)]
-		ensure: [TheoryTestData removeSelector: expectedTestCaseName].
+	[test runCase] on: TestFailure do: ["Eat the expected failure"].
+	self assert: (TheoryTestData canUnderstand: expectedTestCaseName).
+	TheoryTestData removeSelector: expectedTestCaseName.
