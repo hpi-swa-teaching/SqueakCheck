@@ -1,5 +1,5 @@
 *SqueakCheck-Integration
 runAllSqueakCheckTestsForClass
 	
-	self selectorsOfTestsForSelectedClass do: [:each |
+	(self selectorsOfTestsFor: self selectedClassMethods) do: [:each |
 		self runTest: each].

@@ -2,6 +2,6 @@
 squeakCheckMessageCategoryMenu: aMenu
 	<messageCategoryMenu>
 
-	self selectorsOfTestsForSelectedMethodCategory ifEmpty: [^ aMenu].
+	(self selectorsOfTestsFor: self methodSelectorsInSelectedMessageCategory) ifEmpty: [^ aMenu].
 	aMenu addList: #(('run all SqueakCheck tests' runAllSqueakCheckTestsForMethodCategory)).
 	^ aMenu.
