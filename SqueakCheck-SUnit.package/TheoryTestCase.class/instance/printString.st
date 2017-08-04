@@ -2,5 +2,5 @@ private
 printString
 		
 	^ super printString, (self currentExample
-		ifNotNil: [' with: ',self currentExample asString]
+		ifNotNil: [' with: ', self currentExample asString]
 		ifNil: ['']).

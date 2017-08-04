@@ -1,3 +1,4 @@
 as yet unclassified
 isAbstract
-	^ self name = 'TheoryTestData'
+
+	^ self name = 'TheoryTestData'.
