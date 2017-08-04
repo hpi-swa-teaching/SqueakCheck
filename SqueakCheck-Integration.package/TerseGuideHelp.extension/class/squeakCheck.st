@@ -18,8 +18,8 @@ To run the new test: 									rightclick the method and select -SqueakCheck test
 													OR: use the TestRunner to run the tests
 To delete generated counterexamples: 					rightclick the method and select -SqueakCheck tests-, then select your test and click -delete counter examples-
 To open the new test: 									rightclick the method and select -SqueakCheck tests-, then select your test and click -open-
-To specify the class of objects to be tested:				switch -SmallInteger- in the pragma <theoryTaking: #(SmallInteger)> for your class
-To specify multiple classes for multiple parameters:		switch from <theoryTaking: #(SmallInteger)> to e.g. <theoryTaking: #(SmallInteger String SmallInteger)> 		
+To specify the class of objects to be tested:				switch -Integer- in the pragma <theoryTaking: #(Integer)> for your class
+To specify multiple classes for multiple parameters:		switch from <theoryTaking: #(Integer)> to e.g. <theoryTaking: #(Integer String Integer)> 		
 To prevent counterexamples from being generated: 	remove the pragma <generateCounterexamples>
 "
 !' readStream nextChunkText)
