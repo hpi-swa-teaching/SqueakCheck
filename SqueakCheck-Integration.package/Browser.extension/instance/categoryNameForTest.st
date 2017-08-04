@@ -1,4 +1,4 @@
 *SqueakCheck-Integration
 categoryNameForTest
 
-	^ (self selectedClass category), '-Tests'.
+	^ self selectedClass category, '-Tests'.

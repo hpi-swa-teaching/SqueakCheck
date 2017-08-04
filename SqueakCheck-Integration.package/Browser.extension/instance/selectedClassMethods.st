@@ -1,5 +1,6 @@
 *SqueakCheck-Integration
 selectedClassMethods
 	
-	^ self selectedClass ifNotNil: [self selectedClass methodDict keys] 
+	^ self selectedClass
+		ifNotNil: [self selectedClass selectors] 
 		ifNil: [{}].

@@ -1,8 +1,9 @@
 *SqueakCheck-Integration
 addTestForSelectedMethod
 
-	self addTestPackageForSelectedClass.
-	self addTestClassForSelectedClassIfNotExists.
-	^ self addMethodInMessageCategory.
+	^ self
+		addTestPackageForSelectedClass;
+		addTestClassForSelectedClassIfNotExists;
+		addMethodInMessageCategory.
 
 

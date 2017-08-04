@@ -1,4 +1,4 @@
 *SqueakCheck-Integration
 methodBaseName
 
-	^ 'test', (self messageNameWithoutColons: self selectedMessageName).
+	^ 'test', (self messageNameToCamelcase: self selectedMessageName).
