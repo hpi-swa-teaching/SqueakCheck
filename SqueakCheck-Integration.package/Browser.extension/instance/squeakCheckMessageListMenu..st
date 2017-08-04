@@ -4,5 +4,7 @@ squeakCheckMessageListMenu: aMenu
 	<menuPriority: 415>
 	
 	aMenu addList: #(('new SqueakCheck test' addAndOpenTestForSelectedMethod)).
-	self selectorsOfTestsForSelectedMethod ifNotEmpty: [self addTestMenuItems: self selectorsOfTestsForSelectedMethod to: aMenu].
+	self selectorsOfTestsForSelectedMethod ifNotEmpty: [
+		self addTestMenuItems: self selectorsOfTestsForSelectedMethod to: aMenu.
+		aMenu addList: #(('run all SqueakCheck tests' runAllSqueakCheckTestsForSelectedMethod))].
 	^ aMenu.

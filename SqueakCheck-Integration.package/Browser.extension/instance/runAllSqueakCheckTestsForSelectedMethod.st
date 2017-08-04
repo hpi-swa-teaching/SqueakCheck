@@ -1,0 +1,4 @@
+*SqueakCheck-Integration
+runAllSqueakCheckTestsForSelectedMethod
+
+	self runAllSqueakCheckTestsForMethodSelector: self selectedMessageName.
