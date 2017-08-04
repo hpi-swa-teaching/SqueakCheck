@@ -1,19 +1,40 @@
 testing
 testCounterExampleGenerationAndDeletion
-	| test testSelector counterexampleSelector |
+	| firstMethod firstTestSelector firstCounterexampleSelector secondMethod secondTestSelector secondCounterexampleSelector |
 	
-	testSelector := #testReturnTrueProducesCounterexamples:.
-	counterexampleSelector := #testReturnTrueProducesCounterexamplesWith0.
+	firstMethod := #returnNil.
+	firstTestSelector := #testReturnNil:.
+	firstCounterexampleSelector := #testReturnNilWith0.
 	
+	secondMethod := #returnNilAsWell.
+	secondTestSelector := #testReturnNilAsWell:.
+	secondCounterexampleSelector := #testReturnNilAsWellWith0.
+	
+	self browser selectMessageNamed: firstMethod.
 	self browser addTestForSelectedMethod.
-	self browser testClassForSelectedClass
-		compile: ((self browser newMethodContent: testSelector asString) copyReplaceTokens: 'notNil' with: 'isNil')
-		classified: browser squeakCheckTestsMessageCategory.
-	test := self browser testClassForSelectedClass selector: testSelector.
-	self assert: (browser counterexamples: testSelector) isEmpty.
-	[test runCase] on: TestFailure do: [].
-	self assert: (self browser testClassForSelectedClass canUnderstand: counterexampleSelector).
-	self assert: (browser counterexamples: testSelector) size = 1.
-	self browser deleteCounterexamples: testSelector.
-	self assert: (browser counterexamples: testSelector) isEmpty.
+	self assert: (self browser counterexamples: firstTestSelector) isEmpty.
+	[self browser runTest: firstTestSelector] on: TestFailure do: [].
+	self assert: (self browser testClassForSelectedClass canUnderstand: firstCounterexampleSelector).
+	self assert: (self browser counterexamples: firstTestSelector) size = 1.
+	
+	self browser selectMessageNamed: secondMethod.
+	self browser addTestForSelectedMethod.
+	self assert: (self browser counterexamples: secondTestSelector) isEmpty.
+	[self browser runTest: secondTestSelector] on: TestFailure do: [].
+	self assert: (self browser testClassForSelectedClass canUnderstand: secondCounterexampleSelector).
+	self assert: (self browser counterexamples: secondTestSelector) size = 1.
+	
+	self halt.
+	self browser selectMessageNamed: firstMethod.	
+	self browser deleteCounterexamples: firstTestSelector.
+	self assert: (self browser counterexamples: firstTestSelector) isEmpty.
+	self deny: (self browser testClassForSelectedClass canUnderstand: firstCounterexampleSelector).
+	
+	self browser selectMessageNamed: secondMethod.
+	self assert: (self browser testClassForSelectedClass canUnderstand: secondCounterexampleSelector).
+	self assert: (self browser counterexamples: secondTestSelector) size = 1.
+	
+	self browser deleteCounterexamples: secondTestSelector.
+	self assert: (self browser counterexamples: secondTestSelector) isEmpty.
+	self deny: (self browser testClassForSelectedClass canUnderstand: secondCounterexampleSelector).
 	

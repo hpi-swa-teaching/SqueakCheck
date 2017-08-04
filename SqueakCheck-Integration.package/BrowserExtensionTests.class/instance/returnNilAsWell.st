@@ -1,0 +1,4 @@
+testdata
+returnNilAsWell
+
+	^ nil.
