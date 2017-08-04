@@ -1,4 +1,4 @@
 generators
 randomBoolean: anUnusedParameter
 
-	^ #(true false) atRandom: rng.
+	^ #(true false) atRandom: self rng.

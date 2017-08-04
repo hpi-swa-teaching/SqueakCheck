@@ -3,4 +3,4 @@ randomInteger: anIterationProgress
 	| complexity |
 
 	complexity := self exponentialComplexity: anIterationProgress.
-	^ (rng nextInt: complexity * 2) - complexity.
+	^ (self rng nextInt: complexity * 2) - complexity.

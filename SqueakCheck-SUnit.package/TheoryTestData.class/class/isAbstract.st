@@ -1,4 +1,4 @@
-as yet unclassified
+abstract
 isAbstract
 
 	^ self name = 'TheoryTestData'.

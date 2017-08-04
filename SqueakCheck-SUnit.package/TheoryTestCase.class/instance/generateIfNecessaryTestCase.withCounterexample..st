@@ -5,5 +5,4 @@ generateIfNecessaryTestCase: aTheorySelector withCounterexample: anObject
 	(self class >> aTheorySelector pragmaAt: #generateCounterexamples) ifNil: [^ self].
 	self class
 		compile: (self contentOfTestCase: aTheorySelector withCounterexample: anObject)
-		classified: 'counterexamples'
-		notifying: nil.
+		classified: 'counterexamples'.

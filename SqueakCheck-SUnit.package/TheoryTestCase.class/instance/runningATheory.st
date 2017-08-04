@@ -1,4 +1,4 @@
 testing
 runningATheory
 
-	^ testSelector numArgs >= 1.
+	^ self selector numArgs >= 1.

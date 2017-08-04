@@ -4,7 +4,6 @@
 		"printTo:generator:" : "fbs 9/9/2011 17:50" },
 	"instance" : {
 		"generator:" : "fbs 9/9/2011 17:49",
-		"initialize" : "fbs 9/9/2011 21:11",
 		"print:" : "fbs 9/9/2011 17:28",
 		"printFailure:withCounterexample:" : "fbs 9/10/2011 16:25",
 		"printSuccessfulTest" : "fbs 9/9/2011 09:36",

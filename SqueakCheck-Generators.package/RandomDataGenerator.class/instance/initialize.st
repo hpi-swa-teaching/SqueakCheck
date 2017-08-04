@@ -1,4 +1,4 @@
 initialize-release
 initialize
 
-	rng := Random new.
+	self rng: Random new.
