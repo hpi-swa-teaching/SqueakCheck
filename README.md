@@ -1,8 +1,8 @@
 SqueakCheck
 =======
-[![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT17-Project-14.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SWT17-Project-14)
+[![Build Status](https://travis-ci.org/hpi-swa-teaching/SWT17-Project-14.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/SWT17-Project-14)
 
-This project is tested by [Travis CI](https://travis-ci.org/HPI-SWA-Teaching/SWT17-Project-14).
+This project is tested by [Travis CI](https://travis-ci.org/hpi-swa-teaching/SWT17-Project-14).
 
 SqueakCheck is a port of Haskell's QuickCheck.  
 
