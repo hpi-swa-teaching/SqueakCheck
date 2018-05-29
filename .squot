@@ -1,13 +1,13 @@
 OrderedDictionary {
-	'AlgebraicDataType-Core.package' : #SquotCypressCodeSerializer,
-	'AlgebraicDataType-Tests.package' : #SquotCypressCodeSerializer,
-	'AlgebraicDataType-Trees.package' : #SquotCypressCodeSerializer,
-	'AlgebraicDataType.package' : #SquotCypressCodeSerializer,
-	'BaselineOfSqueakCheck.package' : #SquotCypressCodeSerializer,
-	'SqueakCheck-Generators.package' : #SquotCypressCodeSerializer,
-	'SqueakCheck-Info.package' : #SquotCypressCodeSerializer,
-	'SqueakCheck-Integration.package' : #SquotCypressCodeSerializer,
-	'SqueakCheck-Runners.package' : #SquotCypressCodeSerializer,
-	'SqueakCheck-SUnit.package' : #SquotCypressCodeSerializer,
-	'SqueakCheckForAlgebraicDataType.package' : #SquotCypressCodeSerializer
+	'src\/AlgebraicDataType-Core.package' : #SquotCypressCodeSerializer,
+	'src\/AlgebraicDataType-Tests.package' : #SquotCypressCodeSerializer,
+	'src\/AlgebraicDataType-Trees.package' : #SquotCypressCodeSerializer,
+	'src\/AlgebraicDataType.package' : #SquotCypressCodeSerializer,
+	'src\/BaselineOfSqueakCheck.package' : #SquotCypressCodeSerializer,
+	'src\/SqueakCheck-Generators.package' : #SquotCypressCodeSerializer,
+	'src\/SqueakCheck-Info.package' : #SquotCypressCodeSerializer,
+	'src\/SqueakCheck-Integration.package' : #SquotCypressCodeSerializer,
+	'src\/SqueakCheck-Runners.package' : #SquotCypressCodeSerializer,
+	'src\/SqueakCheck-SUnit.package' : #SquotCypressCodeSerializer,
+	'src\/SqueakCheckForAlgebraicDataType.package' : #SquotCypressCodeSerializer
 }
