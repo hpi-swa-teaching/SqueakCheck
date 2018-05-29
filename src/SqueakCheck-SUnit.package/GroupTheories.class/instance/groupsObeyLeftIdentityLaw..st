@@ -1,6 +1,6 @@
 group theories
 groupsObeyLeftIdentityLaw: x
 	"example test for group identity"
-	<theoryTaking: #Integer>
+	<theoryTaking: #SmallInteger>
 
 	self assert: x equals: (x class zero + x).
