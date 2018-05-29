@@ -7,6 +7,8 @@ Read an introduction into SqueakCheck [here](https://tech.labs.oliverwyman.com/b
 Read the [QuickCheck Manual](http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html).
 
 ## Installation
+Note: Currently only Squeak versions after 5.1 are supported (5.2 or 6.0alpha).
+
 1. Load [Metacello](https://github.com/dalehenrich/metacello-work)
 2. Load the testing framework with the following command:
 
