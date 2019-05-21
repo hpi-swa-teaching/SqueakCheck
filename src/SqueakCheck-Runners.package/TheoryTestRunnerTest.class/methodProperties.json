@@ -8,5 +8,5 @@
 		"testAnExpectedFailingTheoryGeneratesNoCounterexampleTestCase" : "fbs 2/2/2012 09:28",
 		"testPrintToDirectsRunnersOutput" : "fbs 9/9/2011 09:39",
 		"testPrintlnPrintsLineEnd" : "fbs 9/9/2011 21:49",
-		"testRunTestCaseRunsFalseTheory" : "MV 8/3/2017 18:15",
-		"testRunTestCaseRunsTrueTheory" : "fbs 2/2/2012 09:28" } }
+		"testRunTestCaseRunsFalseTheory" : "pre 5/21/2019 12:05",
+		"testRunTestCaseRunsTrueTheory" : "pre 5/21/2019 12:05" } }
