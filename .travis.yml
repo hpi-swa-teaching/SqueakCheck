@@ -8,4 +8,9 @@ os:
 
 # Select compatible Smalltalk image(s)
 smalltalk:
+  - Squeak-5.2
   - Squeak-trunk
+  
+matrix:
+  allow_failures:
+    - smalltalk: Squeak-trunk
