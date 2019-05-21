@@ -1,4 +1,4 @@
-testing
+tests
 testAllTestSelectorsReturnsNormalTheories
 	| list |
 	list := TheoryTestData allTestSelectors.

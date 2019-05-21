@@ -1,4 +1,4 @@
-testing
+tests
 testDataFromsAreFound
 	
 	self assert: (self browser classNamesSupportingDataFrom includesSubstring: 'Boolean').

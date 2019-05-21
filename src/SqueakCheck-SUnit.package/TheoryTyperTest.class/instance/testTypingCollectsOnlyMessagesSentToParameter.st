@@ -1,4 +1,4 @@
-testing
+tests
 testTypingCollectsOnlyMessagesSentToParameter
 	self
 		assert: #(==) asSet

@@ -1,4 +1,4 @@
-testing
+tests
 testTypeOfDatumReturnsaSetOfClasses
 	| set |
 	set := TheoryTyper new typeOfDatum: (self class >> #methodWithOneKeywordMessage:).

@@ -1,4 +1,4 @@
-testing
+tests
 highArityTheories: one receive: two notNil: three input: four
 	<theory>
 

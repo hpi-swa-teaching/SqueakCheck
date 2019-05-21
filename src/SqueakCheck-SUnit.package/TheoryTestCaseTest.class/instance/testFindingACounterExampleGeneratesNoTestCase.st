@@ -1,4 +1,4 @@
-testing
+tests
 testFindingACounterExampleGeneratesNoTestCase
 	| expectedTestCaseName test |
 	"Magic name comes from the result of TrivialDataGenerator >> objectData returning itself."

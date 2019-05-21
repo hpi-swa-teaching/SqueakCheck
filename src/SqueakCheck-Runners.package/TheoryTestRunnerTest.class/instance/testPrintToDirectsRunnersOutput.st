@@ -1,4 +1,4 @@
-testing - printing
+tests - printing
 testPrintToDirectsRunnersOutput
 	| runner stream |
 	stream := ReadWriteStream on: (String new: 10).

@@ -1,4 +1,4 @@
-testing
+tests
 testTypingCollectsKeywords
 	| collector |
 	collector := SenderToArgCollector new visitMethodNode: (Decompiler new

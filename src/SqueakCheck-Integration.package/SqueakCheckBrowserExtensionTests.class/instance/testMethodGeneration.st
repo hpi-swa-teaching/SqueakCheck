@@ -1,4 +1,4 @@
-testing
+tests
 testMethodGeneration
 
 	self assert: self browser selectorsOfTestsForSelectedMethod isEmpty.

@@ -1,4 +1,4 @@
-testing
+tests
 testArraysProduceArrays
 	| data |
 	data := OrderedCollection new.

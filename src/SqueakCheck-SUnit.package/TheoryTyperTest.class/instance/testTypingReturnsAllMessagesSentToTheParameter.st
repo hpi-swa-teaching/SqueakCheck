@@ -1,4 +1,4 @@
-testing
+tests
 testTypingReturnsAllMessagesSentToTheParameter
 	self
 		assert: #(== = hash) asSet

@@ -1,4 +1,4 @@
-testing
+tests
 testTypingMakesSetsOfClassAndInstanceMethodsDisjoint
 	| collector |
 	collector := SenderToArgCollector new visitMethodNode: (Decompiler new

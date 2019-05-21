@@ -1,4 +1,4 @@
-testing
+tests
 testAllTestSelectorsReturnsTypeSpecifyingTheories
 	| list |
 	list := TheoryTestData allTestSelectors.

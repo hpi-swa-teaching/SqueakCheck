@@ -1,4 +1,4 @@
-testing
+tests
 testCounterExampleGenerationAndDeletion
 	| firstMethod firstTestSelector firstCounterexampleSelector secondMethod secondTestSelector secondCounterexampleSelector |
 	

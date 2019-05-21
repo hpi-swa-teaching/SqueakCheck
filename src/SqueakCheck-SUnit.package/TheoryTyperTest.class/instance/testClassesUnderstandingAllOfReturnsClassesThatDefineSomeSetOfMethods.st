@@ -1,4 +1,4 @@
-testing
+tests
 testClassesUnderstandingAllOfReturnsClassesThatDefineSomeSetOfMethods
 	| set |
 	set := TheoryTyper new classesUnderstandingAllOf: #(#> #<).
