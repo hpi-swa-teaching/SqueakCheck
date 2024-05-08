@@ -2,7 +2,7 @@
 
 SqueakCheck is a port of Haskell's QuickCheck.  
 
-Read an introduction into SqueakCheck [here](https://tech.labs.oliverwyman.com/blog/2011/09/13/checking-squeak-quickly/).  
+Read an introduction into SqueakCheck [here](https://web.archive.org/web/20200806062146/https://tech.labs.oliverwyman.com/blog/2011/09/13/checking-squeak-quickly/).  
 
 Read the [QuickCheck Manual](http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html).
 
